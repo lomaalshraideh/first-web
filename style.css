@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+h3 {
+	color: red;
+	padding: 10px;
+	margin: 10px;
+}
+h2 {
+	padding: 20px;
+	margin-left: 20px;
+}
+p {
+	font-size: 10px;
+}
+.button {
+	border: 1px solid red;
+	background-color: white;
+	color: red;
+	width: 10px;
+	height: 10px;
+}
+.page-contanor {
+	margin: 20px auto;
+	width: 800px;
+	height: 350px;
+	display: grid;
+	background-color: white;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2.1fr);
+	gap: 3px 5px;
+	/* padding-left: 10px; */
+}
+.button {
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+}
